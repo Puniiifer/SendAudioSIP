@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.17763</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="4.1.0" />
+    <PackageReference Include="Serilog.Extensions" Version="8.0.3" />
+    <PackageReference Include="SIPSorcery" Version="8.0.6" />
+    <PackageReference Include="SIPSorceryMedia.Windows" Version="6.0.5" />
+  </ItemGroup>
+
+</Project>
